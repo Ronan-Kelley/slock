@@ -1,0 +1,6 @@
+# quilt config
+.pc
+
+# build artifacts
+slock
+*.o

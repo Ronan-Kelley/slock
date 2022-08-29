@@ -1,0 +1,13 @@
+on arch, the group "nogroup" is named "nobody".
+Index: slock/config.h
+===================================================================
+--- slock.orig/config.h
++++ slock/config.h
+@@ -1,6 +1,6 @@
+ /* user and group to drop privileges to */
+ static const char *user  = "nobody";
+-static const char *group = "nogroup";
++static const char *group = "nobody";
+ 
+ static const char *colorname[NUMCOLS] = {
+ 	[INIT] =   "black",     /* after initialization */
